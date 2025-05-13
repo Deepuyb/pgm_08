@@ -1,0 +1,10 @@
+$mkdir 81
+$cd 81
+$ mvn archetype:generate -DgroupId=com.Deepuyb -DartifactId=prgm8 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+$git init
+Initialized empty Git repository in C:/Users/deepu/81/.git/
+$ git remote add origin https://github.com/Deepuyb/prgm8.git
+$ git add .
+git commit -m "Initial commit"
+$ git branch -M main       
+git push -u origin main
